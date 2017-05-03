@@ -82,6 +82,7 @@ function initialiseUI() {
       console.log('User IS subscribed.');
     } else {
       console.log('User is NOT subscribed.');
+      subscribeUser(); //// prompt user to subscribe on page open
     }
 
     updateBtn();
